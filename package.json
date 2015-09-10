@@ -2,7 +2,7 @@
   "name": "indeflate",
   "version": "1.0.0",
   "description": "Deflate object graph of models into json with model type annotation, inflate json back into models",
-  "license": "substanceware",
+  "license": "{$substance}ware",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --recursive --no-timeouts --compilers coffee:coffee-script/register --ui exports ./tests"
