@@ -1,5 +1,5 @@
 Assert = require('assert')
-InDeflate = require('../build/indeflate')
+InflateDeflate = require('../build/InflateDeflate')
 
 class Base
   constructor : (data)->
@@ -18,14 +18,14 @@ class Derp extends Base
 
 
 module.exports = {
-  'InDeflate' : {
+  'InflateDeflate' : {
     'should properly deflate and inflate' : ()->
       data = {
         b : new Barf({x : 10})
         c : [new Borf({x : 11}), new Derp({x : 12})]
       }
 
-      {inflate, deflate} = InDeflate(
+      {inflate, deflate} = InflateDeflate(
         models : {
           Barf : Barf
           Borf : Borf

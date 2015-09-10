@@ -1,5 +1,5 @@
 {
-  "name": "indeflate",
+  "name": "inflatedeflate",
   "version": "1.0.0",
   "description": "Deflate object graph of models into json with model type annotation, inflate json back into models",
   "license": "{$substance}ware",

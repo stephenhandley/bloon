@@ -1,1 +1,1 @@
-module.exports = require('./build/InDeflate')
+module.exports = require('./build/InflateDeflate')
